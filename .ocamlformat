@@ -1,0 +1,41 @@
+# 🎨 Base Settings
+profile = default
+margin = 80
+
+# 📐 Indentation & Alignment
+indent-after-open-paren = 2
+let-binding-spacing = compact
+field-space = tight
+
+# 🔤 Sequence Style
+sequence-style = separator
+break-sequences = true
+dock-collection-brackets = true
+
+# 🎯 Wrapping & Breaks
+break-fun-decl = wrap
+wrap-fun-args = true
+cases-exp-indent = 2
+break-cases = all
+
+# 🏗️ Structure
+if-then-else = k-r
+let-and = sparse
+space-around-records = true
+space-around-lists = true
+
+# 🔍 Module & Types
+module-item-spacing = sparse
+type-decl = sparse
+type-decl-indent = 2
+
+# 💫 Expression Formatting
+exp-grouping = preserve
+parens-tuple = always
+nested-match = align
+
+# 🎭 Comments
+doc-comments = before
+doc-comments-padding = 2
+comment-check = true
+
